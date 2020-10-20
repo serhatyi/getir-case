@@ -1,17 +1,17 @@
 # Getir Case
 
-A sample REST API application which is built using Node.js and Express.js. The application has only one endpoint that connects to a MongoDB database for fetching records.
+A sample REST API application which is built using Node.js and Express.js. The application has only single endpoint that connects to a MongoDB database for fetching records.
 
 ## Installation
 
 * Install Node.js
 * Run: $ git clone  https://github.com/serhatyi/getir-case.git
-* Run: cd getir-case
-* Run: npm install
-* Run: mv ./.env.sample ./.env
+* Run: $ cd getir-case
+* Run: $ npm install
+* Run: $ mv ./.env.sample ./.env
 * Enter mongodb URL in .env file
-* Run: npm start
-* Run: npm test for running unit tests
+* Run: $ npm start
+* Run: $ npm test for running unit tests
 
 ## API
 
@@ -23,7 +23,7 @@ A sample REST API application which is built using Node.js and Express.js. The a
       }
       ```
 
-- POST `/filterRecords`
+- POST `/filterRecord`
   - Request Body <br>
       ```json
       {
@@ -52,4 +52,4 @@ A sample REST API application which is built using Node.js and Express.js. The a
 
 ## Live Demo
 Application running in the cloud with Heroku. <br>
-[Live Application]( -Soon- )
+[Live Application]( https://getir-case-test.herokuapp.com ) = https://getir-case-test.herokuapp.com
